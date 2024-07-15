@@ -1,0 +1,218 @@
+.s1 {
+    font-size: xx-large;
+    color: black;
+    padding-bottom: 100px;
+    padding-left: 1100px;
+    width: 1500px;
+}
+
+.s11{
+    width: 200px;
+    margin-left: 1200px;
+    margin-bottom: 330px;
+    font-size: x-large;  
+}
+
+.s2{
+    margin-bottom: 1px;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.s22{
+    margin-bottom: 220px;
+}
+
+
+.s23{
+    margin-left: 850px;
+    width: 100px;
+    margin-bottom: 320px;
+}
+
+
+.s32{
+    margin-bottom: 230px;
+    margin-right: 100px;
+    width: 240px;
+}
+
+
+
+
+.ultra{
+    background-image: url(galaxy-s23-ultra-highlights-kv.avif);
+    width: auto;
+    height: 1000px;
+}
+
+
+.reborn{
+    margin-top:70px;
+    margin-left: 120px;
+    color: white;
+    font-family: sans-serif;
+}
+
+
+.galaxy23{
+    font-style: italic;
+    color: white;
+    font-size: 50px;
+    margin-left: 120px;
+    padding-top: 200px;
+}
+
+.list{
+    margin-left: 130px;
+    color: white;
+
+}
+
+.button23{
+    margin-left: 90px;
+}
+
+.card1{
+    margin-left: 40px;
+}
+
+.flexx{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.ending{
+    text-align: center;   
+}
+
+.flipimage{
+  background-image: url(z\ flip\ 5\ banner\ final.JPG);
+  
+}
+
+.fliptext{
+  width: auto;
+  padding-left: 180px;
+  padding-top: 220px;
+  color: black;
+  font-family: sans-serif;
+  
+}
+
+
+.fliptext2{
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 50px;
+}
+
+
+.ultraimage{
+  background-image: url(s23ultrabanner.avif);
+  justify-content: center;
+  align-items: center;
+  padding-left: 320px;
+}
+
+.ultratext{
+  width: auto;
+  padding-left: 20px;
+  padding-top: 300px;
+  color: white;
+  font-family: sans-serif;
+  font-size: 80px;
+  
+}
+
+
+.ultratext2{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 70px;
+  font-size: 30px;
+}
+
+.align{
+  justify-content: center;
+  align-items: center;
+  padding-left:300px;
+
+}
+
+
+
+
+
+
+/* Default styles */
+
+/* Add your default styles here */
+
+/* Media query for smaller devices */
+@media (max-width: 768px) {
+    /* Adjustments for smaller screens */
+  
+    /* Example: Reduce font size for better readability on smaller devices */
+    h1 {
+      font-size: 24px;
+      width: fit-content;
+    }
+  
+    h2 {
+      font-size: 20px;
+      width: fit-content;
+    }
+  
+    p {
+      font-size: 16px;
+      width: fit-content;
+    }
+  
+    /* Example: Make the navigation items stack vertically */
+    .navbar-nav {
+      flex-direction: column;
+      width: fit-content;
+    }
+  
+    .navbar-nav .nav-item {
+      margin-bottom: 10px;
+      width: fit-content;
+    }
+    
+    .s11{
+      width: auto;
+      height: auto;
+
+      }
+    .fliptext{
+      width: auto;
+      height: auto;
+    }
+
+    .fliptext2 {
+      width: auto;
+      height: auto;
+    }
+    
+  
+    /* Other responsive adjustments for different sections/classes */
+  }
+  
+  /* Media query for medium-sized devices */
+  @media (min-width: 769px) and (max-width: 1024px) {
+    /* Adjustments for medium-sized screens */
+  
+    /* Example: Modify styles for elements on medium-sized screens */
+  }
+  
+  /* Media query for larger devices */
+  @media (min-width: 1025px) {
+    /* Adjustments for larger screens */
+  
+    /* Example: Modify styles for elements on larger screens */
+  }  
+  

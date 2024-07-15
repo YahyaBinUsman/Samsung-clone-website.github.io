@@ -1,0 +1,13 @@
+.cover{
+    background-image: url(flip/1.jpg);
+    background-repeat: no-repeat;
+    width: 1200px;
+    height: 670px;
+    margin-left: 60px ;
+}
+
+.button1{
+    margin-left: 600px;
+    padding-top: 300px;
+}
+
